@@ -1,2 +1,2 @@
 [Prod]
-server1 ansible_host:3.25.217.167 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+server1 ansible_host=3.25.217.167 ansible_ssh_common_args='-o StrictHostKeyChecking=no'

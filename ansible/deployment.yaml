@@ -1,0 +1,15 @@
+  - hosts: Prod
+    remote_user: ubuntu
+    become: yes
+    tasks:
+      - name: Pull the image
+        docker_image:
+          name: muthuinc/webapp
+          source: pull
+      - name: Start the container
+        docker_container:
+          name: mywebapp
+          image: muthuinc/webapp
+          ports:
+            - "80:80"
+        

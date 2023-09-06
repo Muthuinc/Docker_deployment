@@ -7,7 +7,7 @@ This repository contains files and sample web application for building a dockeri
 #### Introduction
 
 ![Static Badge](https://img.shields.io/badge/Docker-blue) is a containerization tool which bundles our application codes and it's dependencies together to form an docker image which we can run as a container on the hosts machine. Docker made the application development ease and consistent.
-In this project docker is used to build the appplication, then pushed to docker hub which is a repository for docker images where we can easily access our application image at our will. atlast ![Static Badge](https://img.shields.io/badge/Ansible-8A2BE2)is used for deployment in the server. All these process is automated by CI tool ![Static Badge](https://img.shields.io/badge/Ansible-green)
+In this project docker is used to build the appplication, then pushed to docker hub which is a repository for docker images where we can easily access our application image at our will. atlast ![Static Badge](https://img.shields.io/badge/Ansible-8A2BE2)is used for deployment in the server. All these process is automated by CI tool ![Static Badge](https://img.shields.io/badge/Jenkins-green)
 
 #### Pre-requisities 
 

@@ -30,4 +30,4 @@ In this project docker is used to build the appplication, then pushed to docker 
 
 ### How to tweak it
 
-If you want to try the same procedure like building the docker image and deploying to the server. Clone the repo, change the credentials with your own actual values. Also change the **ansible_hosts** of the server in the Ansible/invnetory file.
+If you want to try the same procedure like building the docker image and deploying to the server. Clone the repo, change the credentials with your own actual values. Also change the **ansible_hosts** of the server in the Ansible/invnetory file. It will work for you.
